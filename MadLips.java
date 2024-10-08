@@ -9,7 +9,7 @@ public class MadLips {
         String noun = scanner.nextLine(); // Read input for a noun
 
         //enter a plural noun
-        System.out.print("Enter a plural noun(e.g., apples, cars, etc.): "); 
+        System.out.print("Enter a plural noun(e.g., apples, chocolates, etc.): "); 
         String pluralNoun = scanner.nextLine(); // Read input for a plural noun
 
         //enter a number
@@ -17,7 +17,7 @@ public class MadLips {
         String number = scanner.nextLine(); // Read input for a number
 
         //madLibs story template with placeholders
-        String story = "I went to the animal <noun>, the <plural_noun> and the <number> beasts were there.";
+        String story = "KK made a <noun>, which <plural_noun> and <number> grams of sugar.";
 
         //replace placeholders
         story = story.replace("<noun>", noun);
