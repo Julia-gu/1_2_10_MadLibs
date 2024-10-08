@@ -5,21 +5,21 @@ public class MadLips {
         Scanner scanner = new Scanner(System.in);
 
         // enter a noun
-        System.out.print("Enter a noun: "); 
+        System.out.print("Enter a noun (e.g., cookie, pencil, etc.): "); 
         String noun = scanner.nextLine(); // Read input for a noun
 
         //enter a plural noun
-        System.out.print("Enter a plural noun: "); 
+        System.out.print("Enter a plural noun(e.g., apples, cars, etc.): "); 
         String pluralNoun = scanner.nextLine(); // Read input for a plural noun
 
         //enter a number
-        System.out.print("Enter a number: "); 
+        System.out.print("Enter a number(e.g., 1, 5, 100.): "); 
         String number = scanner.nextLine(); // Read input for a number
 
         //madLibs story template with placeholders
         String story = "I went to the animal <noun>, the <plural_noun> and the <number> beasts were there.";
 
-        //replace placeholders with user inputs
+        //replace placeholders
         story = story.replace("<noun>", noun);
         story = story.replace("<plural_noun>", pluralNoun);
         story = story.replace("<number>", number);
